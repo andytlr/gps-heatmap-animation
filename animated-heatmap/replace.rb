@@ -1,9 +1,16 @@
-def replace_content
-  "replaced"
+class String
+  def replace_content
+    to_replace = scan("replace_me")
+    # gsub("replace_me", "wang")
+
+    # to_replace.length.times do |n|
+    #   "Derp"
+    # end
+  end
 end
 
 filename = "process.txt"
-outdata = File.read(filename).gsub("replace_me", "#{replace_content}")
+outdata = File.read(filename).replace_content
 
 File.open(filename, 'w') do |out|
   out << outdata
