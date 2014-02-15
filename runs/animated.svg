@@ -3,9 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="504px" height="504px" viewBox="0 0 504 504" enable-background="new 0 0 504 504" xml:space="preserve">
+
+<rect fill="#0B8185" width="504" height="504"/>
 <g>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		384.26,226.01 384.38,224.54 384.64,223.32 384.77,222.08 385.03,220.79 385.15,219.51 385.54,218.23 384.77,216.85 383.23,216.3
 		381.69,215.83 380.15,215.24 378.48,214.8 377.2,214.61 375.53,214.46 373.86,214.21 371.81,213.83 370.53,213.58 368.86,213.22
 		367.32,212.89 365.78,212.58 364.37,212.35 362.45,212.02 361.17,211.72 359.37,211.33 357.32,210.89 355.65,210.49 353.73,210.11
@@ -20,14 +22,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="0s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		385.92,232.21 385.92,232.21 385.15,234.03 384,235.54 382.97,237.12 381.82,238.58 380.92,239.8 379.89,240.93 378.87,242.01
 		377.84,243.04 376.82,244.27 375.79,245.55 375.02,246.58 374.25,247.54 373.22,248.56 372.33,249.59 371.3,250.62 370.14,251.58
 		369.12,252.61 368.35,253.66 367.32,254.66 366.55,255.68 365.66,256.74 364.63,257.76 363.73,258.84 362.7,259.83 361.68,260.85
@@ -43,14 +45,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="1s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		383.61,224.13 383.87,222.68 384,221.27 384.38,219.79 384.64,218.42 384.77,217.1 383.36,216.28 381.69,216.07 379.89,216.05
 		378.35,215.83 376.82,215.66 375.28,215.49 373.61,215.28 372.07,214.96 370.66,214.56 369.12,214.31 367.58,214.07 366.04,213.87
 		364.63,213.58 363.09,213.35 361.29,213.1 359.5,212.75 357.96,212.56 356.55,212.26 354.75,212.07 353.21,211.92 351.54,211.56
@@ -67,14 +69,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="2s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		384.38,226.5 384.38,226.5 383.61,224.69 383.87,223.49 384,222.14 384.26,220.82 384.38,219.45 384.64,218.12 384.77,216.76
 		385.03,215.41 385.15,214.02 385.41,212.75 385.54,211.53 385.92,210.27 386.31,208.99 386.56,207.66 386.95,206.34 387.08,205.07
 		387.33,203.86 387.08,202.67 387.08,201.5 387.59,200.18 387.72,198.95 388.1,197.63 388.36,196.46 388.49,195.27 388.75,193.85
@@ -95,14 +97,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="3s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		383.23,224.29 383.23,224.29 383.36,222.92 383.61,221.69 383.87,220.41 384,219.2 384,217.88 383.23,216.85 381.69,216.43
 		380.28,216.28 378.48,216.17 376.82,216.05 375.02,215.83 373.48,215.64 371.81,215.44 370.27,215.24 368.86,215.05 367.32,214.85
 		365.78,214.61 364.24,214.42 362.7,214.25 361.17,214.17 359.5,213.99 357.96,213.83 356.16,213.53 354.75,212.99 353.47,212.51
@@ -131,14 +133,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="4s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		386.56,233.59 386.56,233.59 386.18,234.86 385.92,235.16 384.77,236.24 383.87,237.16 382.84,238.11 382.07,239.01 380.92,240.16
 		379.89,241.06 379.12,242.16 378.1,243.11 377.2,244.14 376.43,245 375.4,245.94 374.38,246.83 373.48,247.99 372.45,248.96
 		371.68,249.91 370.66,250.77 369.76,251.75 368.73,252.73 367.71,253.8 366.94,254.84 366.04,255.81 365.27,256.74 364.24,257.74
@@ -169,14 +171,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="5s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		383.61,223.17 384,221.9 384.26,220.73 384.38,219.3 384.64,217.97 384.38,216.82 382.84,216.37 381.3,216.37 379.64,216.23
 		377.84,216.12 376.43,216.05 374.76,215.83 373.48,215.79 371.81,215.64 370.14,215.53 368.35,215.34 366.55,215.2 364.89,215.1
 		363.09,214.89 361.68,214.56 359.88,214.25 358.6,214.07 356.8,213.99 355.01,213.74 353.47,213.48 351.67,213.04 350.01,212.51
@@ -200,14 +202,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="6s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		382.2,226.21 382.97,224.51 383.23,223.17 383.36,221.9 383.61,220.66 383.87,219.38 384,218.23 383.87,216.91 382.46,216.43
 		380.92,216.3 379.25,216.37 377.71,216.23 376.17,215.98 374.76,215.66 373.22,215.44 371.43,215.24 369.89,215.02 368.09,214.8
 		366.55,214.7 365.01,214.56 363.73,214.42 361.93,214.17 360.14,213.87 358.21,213.74 356.8,213.53 355.26,213.29 353.73,213.04
@@ -243,14 +245,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="7s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		382.07,227.37 382.07,227.37 380.15,227.77 378.74,227.63 377.2,227.59 375.4,227.53 373.61,227.42 372.33,227.28 370.66,227.08
 		369.38,226.82 367.71,226.57 366.3,226.35 364.63,226.05 362.7,225.8 361.17,225.56 359.5,225.32 358.21,225.08 356.42,224.77
 		355.65,223.7 355.65,222.38 356.03,221.05 355.39,219.89 355.65,218.66 355.65,217.5 355.78,216.23 356.03,214.85 354.75,213.99
@@ -276,14 +278,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="8s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		382.46,223.51 382.84,222.2 383.23,220.97 383.61,219.77 383.87,218.52 384,217.25 383.61,216.07 382.07,215.44 380.28,215.41
 		378.74,215.41 377.2,215.41 375.79,215.28 374.25,215.2 372.71,215.05 371.04,214.96 369.76,214.85 368.09,214.76 366.55,214.64
 		365.01,214.46 363.47,214.25 362.06,214.07 360.65,213.83 359.11,213.61 357.57,213.53 356.03,213.43 354.11,213.22 352.31,212.89
@@ -305,14 +307,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="9s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		381.69,226.4 382.07,224.77 382.46,223.27 383.23,222.08 384.26,220.79 384.77,219.38 385.15,218.1 386.18,217.1 388.1,217.07
 		389.51,217.33 391.05,217.71 392.59,217.93 394.39,218.28 396.19,217.93 397.08,217.1 397.85,216.05 398.62,215.05 399.91,213.78
 		400.93,212.56 401.96,211.43 403.24,210.27 404.39,209.27 405.55,208.35 406.06,207.27 406.58,205.99 406.7,204.67 407.09,203.4
@@ -336,14 +338,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="10s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		385.15,224.59 382.97,224.1 383.23,222.88 383.36,221.65 383.61,220.41 384,219.16 384.38,217.97 383.87,216.69 382.2,216.28
 		380.66,216.17 378.87,216.07 377.2,216.05 375.79,215.79 374.25,215.64 372.84,215.41 371.3,215.2 369.89,215.05 368.09,214.89
 		366.81,214.7 365.27,214.46 363.47,214.31 361.68,214.21 359.88,213.99 358.34,213.67 356.55,213.48 355.01,213.35 353.21,213.13
@@ -379,14 +381,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="11s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		382.84,224.54 383.23,223.32 383.23,222 383.23,220.63 383.36,219.25 384,217.97 384.38,216.76 383.23,215.88 381.43,216.17
 		379.64,216.17 378.35,216.07 376.82,215.79 375.28,215.49 373.86,215.24 372.45,215.15 370.66,215.02 368.86,214.85 367.58,214.46
 		366.04,214.21 364.24,214.02 362.45,213.83 360.65,213.61 358.98,213.35 357.19,213.22 355.78,213.04 354.24,212.71 352.7,212.35
@@ -416,14 +418,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="12s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		385.03,224.9 384.77,223.56 384.64,222.24 384.38,220.97 384.64,219.64 384.77,218.23 384.77,217.01 383.36,216.23 381.82,216.28
 		380.15,216.23 378.48,216.17 376.94,216.05 375.53,215.88 373.99,215.74 372.33,215.53 370.66,215.34 369.38,215.2 367.58,215.05
 		366.04,214.7 364.24,214.31 362.7,214.07 361.17,213.83 359.37,213.58 357.57,213.38 356.16,213.19 354.62,212.99 353.08,212.65
@@ -453,14 +455,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="13s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		217.72,170.76 216.35,170.69 214.95,171.44 213.75,172.24 212.43,172.88 211.03,173.42 209.27,173.61 207.99,174.37 208.33,175.68
 		209.48,176.63 209.63,177.83 208.66,178.82 207.86,179.83 206.68,180.77 205.29,181.4 203.87,181.91 202.4,182.49 201.2,183.28
 		199.79,183.91 198.5,184.5 197.26,185.22 196.12,186.09 194.71,186.76 193.28,187.17 192.04,187.97 190.63,187.53 190.18,188.72
@@ -488,14 +490,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="14s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		218.19,173.97 218.26,174.02 216.78,174.81 215.35,175.43 213.77,175.99 212.53,176.78 211.4,177.56 210.02,178.36 208.72,179.4
 		207.64,180.48 206.24,181.44 204.81,182.34 203.4,183.04 201.9,183.59 200.36,183.98 198.87,184.53 197.87,185.47 196.69,186.29
 		195.21,186.75 193.62,187.24 192.31,188.18 191.25,189.07 190.9,190.56 190.49,191.69 190.09,192.8 189.81,194.07 189.56,195.28
@@ -517,14 +519,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="15s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		217.81,173.62 216.57,174.36 215.15,174.66 213.79,175.18 212.4,175.81 211.4,176.68 209.96,177.65 208.72,178.55 207.6,179.62
 		206.36,180.48 204.81,180.82 203.14,181.08 201.46,181.35 200.24,182.21 198.97,183.01 197.93,183.96 196.85,184.87 195.61,185.72
 		194.37,186.77 193.21,187.56 192.03,188.61 190.68,189.08 189.8,190.16 188.79,191.3 188.44,192.43 188.71,193.74 188.91,194.91
@@ -554,14 +556,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="16s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		246.47,185.4 246.47,187.75 246.32,189.04 246.05,190.4 245.48,191.61 245.42,192.78 245.37,194.02 245.48,195.57 245.3,197.05
 		245.05,198.31 244.46,199.68 243.88,200.79 243.5,201.94 243.5,203.19 243.29,204.6 243.25,206.03 243.27,207.48 243.06,208.91
 		242.88,210.18 242.39,211.48 241.76,212.8 241.62,214.03 241.37,215.34 240.9,216.73 240.53,218 240.15,219.19 239.7,220.43
@@ -601,14 +603,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="17s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		196.44,185.97 195.16,186.34 193.88,186.9 192.47,187.57 190.93,187.88 189.43,187.83 188.86,189.08 188.48,190.34 188.02,191.51
 		188.13,192.71 188.11,193.94 188.21,195.38 188.29,196.78 188.08,198.06 188.23,199.31 188.07,200.49 188.2,201.87 187.82,203.06
 		187.32,204.35 187.25,205.76 187.32,207.08 187.4,208.5 186.96,209.75 186.51,210.88 185.9,212.01 185.71,213.29 185.66,214.47
@@ -650,14 +652,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="18s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		217.87,174.36 211.71,178.91 210.28,179.17 208.64,179.6 207.07,180.23 206.03,181.13 204.69,181.68 203.29,182.32 201.83,183.13
 		200.64,184.04 199.83,185.26 198.44,186.14 196.91,186.52 195.56,187.22 193.92,187.8 192.66,188.42 191.22,189.22 190.5,190.49
 		189.77,191.78 189.25,193.06 188.91,194.33 188.58,195.53 188.14,196.64 188.11,198 188.2,199.33 188.9,200.38 189.13,201.69
@@ -685,14 +687,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="19s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		218.99,173.41 217.53,174.47 216.17,175.36 214.77,175.82 213.27,176.67 211.59,177.41 210.34,178.06 209.13,178.7 207.59,179.47
 		206.04,180.1 204.68,180.99 203.47,182.03 201.92,182.63 200.36,183.41 198.88,184.11 197.26,184.99 196.06,185.66 194.8,186.34
 		193.76,187.27 192.4,188.2 191.11,188.76 190.49,190.1 189.9,191.37 189.48,192.73 189.47,193.89 189.57,195.33 189.57,196.75
@@ -746,14 +748,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="20s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		218.3,173.74 217.39,174.82 215.98,175.81 214.47,176.52 213.15,177.31 211.88,178.23 210.49,178.83 209.07,179.32 207.87,180.39
 		206.82,181.44 205.9,182.39 204.58,183.25 202.75,183.71 201.16,184.28 199.45,185.02 198.23,185.7 196.71,186.4 195.12,187
 		193.75,187.41 192.43,188 191.66,189.08 190.52,189.99 190.34,191.26 190.27,192.74 189.95,193.98 189.66,195.15 189.31,196.5
@@ -807,14 +809,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="21s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		218.55,174.29 218.12,174.52 217.49,174.86 216.88,175.22 216.43,175.28 215.93,175.23 215.33,175.45 214.93,175.73 214.59,176.02
 		213.99,176.5 213.63,176.7 213.26,176.92 212.59,177.14 212.02,177.51 211.49,177.92 210.87,178.37 210.41,178.6 209.98,178.76
 		209.55,178.87 209.16,179.05 208.78,179.26 208.48,179.54 208.16,179.86 207.8,180.18 207.44,180.46 207.07,180.74 206.68,181
@@ -922,14 +924,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="22s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		217.43,174.57 217.43,174.57 215.27,175.7 212.93,177.08 210.98,178.2 208.63,179.37 206.47,180.1 204.13,181.39 201.97,182.36
 		200.79,183.34 198.84,184.61 196.88,185.89 194.93,186.86 192.18,187.4 190.43,188.62 190.03,190.58 189.25,192.58 189.25,194.64
 		188.86,196.65 188.27,198.75 187.49,200.56 187.09,202.42 186.9,204.13 186.71,206.34 186.31,208.44 185.72,210.59 185.53,212.35
@@ -965,14 +967,14 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="23s"
 	    repeatCount="1"
 	    fill="freeze"
 	  />
 		</polyline>
 
-		<polyline opacity="0.125" fill="none" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polyline opacity="0.25" fill="none" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		217.83,174.97 217.83,174.97 215.86,175.56 214.49,176.78 211.76,177.56 209.6,178.78 207.85,179.86 205.88,181.23 203.73,182.5
 		202.16,182.95 200.41,183.82 198.64,185.11 196.49,186.43 194.34,187.65 192.77,188.62 191,189.85 191.4,191.61 191,193.32
 		190.22,195.03 189.25,197.54 188.66,199.49 187.87,200.91 187.49,202.72 187.49,204.48 187.09,205.8 186.71,207.36 186.5,209.52
@@ -1012,7 +1014,7 @@
 			attributeName="stroke"
 			dur="1s"
 	    from="transparent"
-	    to="#000000"
+	    to="#ffffff"
 	    begin="24s"
 	    repeatCount="1"
 	    fill="freeze"
