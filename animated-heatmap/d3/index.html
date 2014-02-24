@@ -3,20 +3,24 @@
 
 <head>
 <meta charset="utf-8"/>
-<title>Heatmap of 2013 &mdash; Animated Timeline</title>
+<title>Animated SVG Path</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
-body {
-margin: 0;
-padding: 0;
-}
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  svg {
+    width: 100%;
+    height: 100%;
+  }
 </style>
 </head>
 <body>
 
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="300px" height="300px" viewBox="0 0 504 504" enable-background="new 0 0 504 504" xml:space="preserve">
-      <path id="existingLine" opacity="0.5" fill="none" stroke="blue" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " d="
+     width="1200px" height="1200px" viewBox="0 0 504 504" enable-background="new 0 0 504 504" xml:space="preserve">
+      <path id="existingLine" opacity="0.5" fill="none" stroke="blue" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " d="
       M194.93,176.77L194.93,176.77l0.5-0.01l0.4,1.19l-0.2,1.2l-0.15,0.71l2.69,0.32l2.04,0.26l0.65,0.08l1.29,0.16l1.09,0.13l0.4,0.05
       l1.74-0.05l1.65,0.22l1.44,0.19l1.89,0.06l1.6,0.21l1.84,0.28l1.59,0.17l1.5,0.17l1.74,0.24l1.39,0.14l1.95,0.28h0.14l1.95,0.28
       l1.34,0.14l1.24,0.17l1.9,0.25l1.44,0.2l1.64,0.19l0.6,0.06l1.04,0.06l2.1,0.37l1.54,0.23l1.94,0.15l1.8,0.26l1.99,0.21l0.44-1.35
@@ -264,14 +268,13 @@ padding: 0;
 	  // select the already-existing path node via its ID.
 	  var path = d3.select("#existingLine");
 
-	  // from here forward the code is exactly like the original....
 	  var totalLength = path.node().getTotalLength();
 
 	  path
 	    .attr("stroke-dasharray", totalLength + " " + totalLength)
 	    .attr("stroke-dashoffset", totalLength)
 	    .transition()
-	      .duration(5000)
+	      .duration(10000)
 	      .ease("linear")
 	      .attr("stroke-dashoffset", 0);
 	</script>
