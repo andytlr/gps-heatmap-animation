@@ -434,7 +434,8 @@
         .attr("stroke-dashoffset", totalLength)
         .transition()
           .duration(5000)
-          // .delay(5000 * (paths.length - i))
+          // Comment out the line below to have the paths happen concurrently.
+          .delay(5000 * (paths.length - i))
           .ease("linear")
           .attr("stroke-dashoffset", 0);
     });
