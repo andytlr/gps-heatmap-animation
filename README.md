@@ -1,22 +1,22 @@
 * Vector heatmaps created with R and script from [FlowingData][].
-* To convert `<polyline>` to `<path>` in Illustrator, make sure there is at least one curve between points and Illustrator will generate a path instead of a polyline.
 * Start a localhost server with `python -m SimpleHTTPServer 8000`.
 
 [FlowingData]: http://flowingdata.com/2014/02/05/where-people-run/
 
-### Convert polyline to path
+## Convert SVG polyline to path
 
-From [StackOverflow](http://stackoverflow.com/questions/13679495/examples-of-polygons-drawn-by-path-vs-polygon-in-svg):
+Replace all instances of `<polyline` with `<path` and `points="` with `d="M`.
 
-It's trivial: You can basically take the points attribute of a polygon and turn it into a path's d attribute by prepending M and appending z. Like so:
-
-```xml
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-  <polygon points="20,20 100,20 100,100 30,110"/>
-  <path        d="M20,20 100,20 100,100 30,110z" fill="green" transform="translate(100,0)"/>
-</svg>
+```diff
+ <?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+ <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+-<polyline fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="100.712,141.534 582.904,227.835 425.37,478.521
++<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M100.712,141.534 582.904,227.835 425.37,478.521
+  711.671,552.493 345.918,810.027 900.713,859.343 "/>
+ </svg>
 ```
 
-`points` to `d`. Add `M` and `z` to the start and end FFS.
+To close the path, you can also add `z` before the closing `"`. E.g. `900.713,859.343z "/>`.
 
-Adding `z` to the end appears to close the path. Simply adding `M` seems to work.
+Documented this in a [Gist](https://gist.github.com/andytlr/9283541).
