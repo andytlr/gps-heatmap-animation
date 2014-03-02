@@ -1,5 +1,7 @@
 # GSP Heatmap Generated with R and animated with D3.
 
+[Demo](http://andytaylor.me/gps-heatmap-animation/)
+
 ## Make vector heatmap
 
 Vector heatmaps created with R and script from [FlowingData](http://flowingdata.com/2014/02/05/where-people-run/).
