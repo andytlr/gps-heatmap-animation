@@ -1,4 +1,4 @@
-# Animated GPS Heatmap
+# GPS Heatmap Animation
 
 [Demo](http://andytaylor.me/gps-heatmap-animation/)
 
