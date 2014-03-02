@@ -1,4 +1,6 @@
-# GSP Heatmap Generated with R and animated with D3.
+# Animated GPS Heatmap
+
+[Demo](http://andytaylor.me/gps-heatmap-animation/)
 
 ## Make vector heatmap
 
