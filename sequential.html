@@ -40,9 +40,12 @@
 	<script type="text/javascript">
     var paths = d3.selectAll("path");
 
-    var j = 0;
+    var previousLength = 0
+    var slowDownBy = 3
+
     paths.each(function (d, i) {
       var totalLength = this.getTotalLength();
+
       d3.select(this)
         .attr("stroke-dasharray", totalLength + " " + totalLength)
         .attr("stroke-dashoffset", totalLength)
@@ -51,11 +54,12 @@
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
         .transition()
-          .duration(2000)
-           .delay(2000 * j)
+          .duration(totalLength * slowDownBy)
+          .delay(previousLength * slowDownBy)
           .ease("linear")
           .attr("stroke-dashoffset", 0);
-        j += 1;
+
+          previousLength = previousLength + totalLength
     });
 	</script>
 
