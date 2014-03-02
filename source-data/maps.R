@@ -1,9 +1,6 @@
-# To Install Dependencies
-# install.packages("plotKML")
-# When asked to choose a mirror with XQuartz, if you don't have it, go download XQuartz and try again.
-
-# To Run
-# R CMD BATCH maps.R
+# Script from FlowingData
+# http://flowingdata.com/2014/02/05/where-people-run/
+# To Run: `R CMD BATCH maps.R`
 
 library(plotKML)
 
