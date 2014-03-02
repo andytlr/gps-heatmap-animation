@@ -1,22 +1,31 @@
-* Vector heatmaps created with R and script from [FlowingData][].
-* Start a localhost server with `python -m SimpleHTTPServer 8000`.
+## Make vector heatmap
 
-[FlowingData]: http://flowingdata.com/2014/02/05/where-people-run/
+Vector heatmaps created with R and script from [FlowingData](http://flowingdata.com/2014/02/05/where-people-run/).
 
-## Convert SVG polyline to path
+### Install R and dependencies
 
-Replace all instances of `<polyline` with `<path` and `points="` with `d="M`.
+1. Download and Install [R](http://www.r-project.org)
+2. In terminal launch R with `R`.
+3. In R, run `install.packages("plotKML")` to install dependencies for the script.
+4. R will attempt to use XQuartz to ask you to choose a mirror to get packages from. If you don't have it, go [download](http://xquartz.macosforge.org/landing/), install and repeat #3.
 
-```diff
- <?xml version="1.0" encoding="utf-8"?>
- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
- <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
--<polyline fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="100.712,141.534 582.904,227.835 425.37,478.521
-+<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M100.712,141.534 582.904,227.835 425.37,478.521
-  711.671,552.493 345.918,810.027 900.713,859.343 "/>
- </svg>
-```
+### Convert *.gpx to SVG heatmap
 
-To close the path, you can also add `z` before the closing `"`. E.g. `900.713,859.343z "/>`.
+1. `cd` to the directory with `maps.R` and your source `.gpx` files.
+2. Run `R CMD BATCH maps.R`
+3. This will generate a PDF called `Rplots.pdf`. The process to make this PDF an SVG is manual (I'd like to try and automate it): open the PDF in Illustrator and save as an SVG.
 
-Documented this in a [Gist](https://gist.github.com/andytlr/9283541).
+## Convert SVG polylines to paths
+
+Illustrator spits out each GPS line as SVG `<polyline>`s. To animate them we need them to be `<path>`s. To do so, you essentially need to replace all instances of `<polyline` with `<path` and `points="` with `d="M`. I've documented this process a bit further in this [Gist](https://gist.github.com/andytlr/9283541).
+
+I've written a small Ruby script to automate this.
+
+1. `cd` to directory containing `Rplots.svg` and `polyline-to-path.rb`.
+2. run `ruby polyline-to-path.rb`
+
+## Start localhost server and check it out
+
+1. `cd` to directory containing `index.html` and start a localhost server with `python -m SimpleHTTPServer 8000`.
+2. Visit http://localhost:8000
+
