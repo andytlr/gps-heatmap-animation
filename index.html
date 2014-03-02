@@ -9,7 +9,7 @@
   body {
     margin: 0;
     padding: 0;
-    background: #00C9A0;
+    background: #33163B;
   }
   svg {
     width: 100%;
@@ -19,17 +19,23 @@
 </head>
 <body>
 
+  <!-- Make a container for the SVG to append to -->
   <div id="svgContainer"></div>
+
+  <!-- Append the SVG to the above container -->
   <script>
     xhr = new XMLHttpRequest();
-    xhr.open("GET","source-data/Rplots.svg",false);
+    xhr.open("GET","/source-data/Rplots-fewer.svg",false);
     xhr.overrideMimeType("image/svg+xml");
     xhr.send("");
     document.getElementById("svgContainer")
       .appendChild(xhr.responseXML.documentElement);
   </script>
 
+  <!-- Include D3 -->
 	<script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
+
+  <!-- Configure D3 -->
 	<script type="text/javascript">
     var paths = d3.selectAll("path");
 
@@ -43,7 +49,7 @@
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
         .transition()
-          .duration(10000)
+          .duration(30000)
           .ease("linear")
           .attr("stroke-dashoffset", 0);
     });
