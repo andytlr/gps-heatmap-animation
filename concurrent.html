@@ -40,7 +40,6 @@
 	<script type="text/javascript">
     var paths = d3.selectAll("path");
 
-    var j = 0;
     paths.each(function (d, i) {
       var totalLength = this.getTotalLength();
       d3.select(this)
@@ -51,11 +50,9 @@
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
         .transition()
-          .duration(2000)
-           .delay(2000 * j)
+          .duration(30000)
           .ease("linear")
           .attr("stroke-dashoffset", 0);
-        j += 1;
     });
 	</script>
 
