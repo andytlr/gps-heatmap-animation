@@ -1,7 +1,7 @@
 # GPS Heatmap Animation
 
-* [Concurrent Demo](http://andytaylor.me/gps-heatmap-animation/).
-* [Sequential Demo](http://andytaylor.me/gps-heatmap-animation/sequential.html) (not currently working beyond two paths).
+* [Concurrent Demo](http://andytaylor.me/gps-heatmap-animation/concurrent.html).
+* [Sequential Demo](http://andytaylor.me/gps-heatmap-animation/sequential.html)
 
 ## Make vector heatmap
 
@@ -20,7 +20,9 @@ Vector heatmaps created with [R](http://www.r-project.org) and [script from Flow
 2. Run `R CMD BATCH maps.R`. This will generate a PDF called `Rplots.pdf`.
 3. The process to make this PDF an SVG is manual (I'd like to try and automate it). But for the moment you'll need to open the PDF in Illustrator and save as an SVG.
 
-## Convert SVG polylines to paths
+## Animate SVG
+
+### Convert SVG polylines to paths
 
 Illustrator spits out each GPS line as SVG `<polyline>`s. To animate them we need them to be `<path>`s.
 
@@ -31,7 +33,7 @@ You could simply do find and replace but I've written a small Ruby script to aut
 1. `cd` to directory containing `Rplots.svg` and `polyline-to-path.rb`.
 2. run `ruby polyline-to-path.rb`
 
-## Start localhost server and check it out
+### Start localhost server and check it out
 
 1. `cd` to directory containing `index.html` and start a localhost server with `python -m SimpleHTTPServer 8000`.
 2. Visit http://localhost:8000
