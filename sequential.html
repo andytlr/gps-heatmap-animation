@@ -26,6 +26,7 @@
   <script>
     xhr = new XMLHttpRequest();
     xhr.open("GET","source-data/Rplots-fewer.svg",false);
+    // xhr.open("GET","source-data/Rplots.svg",false);
     xhr.overrideMimeType("image/svg+xml");
     xhr.send("");
     document.getElementById("svgContainer")
@@ -39,6 +40,7 @@
 	<script type="text/javascript">
     var paths = d3.selectAll("path");
 
+    var j = 0;
     paths.each(function (d, i) {
       var totalLength = this.getTotalLength();
       d3.select(this)
@@ -49,9 +51,11 @@
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
         .transition()
-          .duration(30000)
+          .duration(1000)
+           .delay(1000 * j)
           .ease("linear")
           .attr("stroke-dashoffset", 0);
+        j += 1;
     });
 	</script>
 
