@@ -1,3 +1,5 @@
+# GSP Heatmap Generated with R and animated with D3.
+
 ## Make vector heatmap
 
 Vector heatmaps created with R and script from [FlowingData](http://flowingdata.com/2014/02/05/where-people-run/).
@@ -9,7 +11,7 @@ Vector heatmaps created with R and script from [FlowingData](http://flowingdata.
 3. In R, run `install.packages("plotKML")` to install dependencies for the script.
 4. R will attempt to use XQuartz to ask you to choose a mirror to get packages from. If you don't have it, go [download](http://xquartz.macosforge.org/landing/), install and repeat #3.
 
-### Convert *.gpx to SVG heatmap
+### Convert multiple GPX files to one SVG heatmap
 
 1. `cd` to the directory with `maps.R` and your source `.gpx` files.
 2. Run `R CMD BATCH maps.R`
