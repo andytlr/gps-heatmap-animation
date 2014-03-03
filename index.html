@@ -34,14 +34,16 @@
   </script>
 
   <!-- Include D3 -->
-	<script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
+  <script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
 
   <!-- Configure D3 -->
-	<script type="text/javascript">
-    var paths = d3.selectAll("path");
+  <script type="text/javascript">
+    // Speed of animation is defined by the length of the paths.
+    // 1 is fast, 20 is quite slow. Choose a speed somewhere in the middle:
+    var speed = 5
 
+    var paths = d3.selectAll("path");
     var previousLength = 0
-    var slowDownBy = 3
 
     paths.each(function (d, i) {
       var totalLength = this.getTotalLength();
@@ -50,18 +52,18 @@
         .attr("stroke-dasharray", totalLength + " " + totalLength)
         .attr("stroke-dashoffset", totalLength)
         .attr("stroke", "#fff")
-        .attr("opacity", "0.2")
+        .attr("opacity", "0.1")
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
         .transition()
-          .duration(totalLength * slowDownBy)
-          .delay(previousLength * slowDownBy)
+          .duration(totalLength * speed)
+          .delay(previousLength * speed)
           .ease("linear")
           .attr("stroke-dashoffset", 0);
 
-          previousLength = previousLength + totalLength
+        previousLength = previousLength + totalLength
     });
-	</script>
+  </script>
 
 </body>
 </html>
