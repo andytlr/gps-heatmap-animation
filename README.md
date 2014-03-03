@@ -1,7 +1,7 @@
 # GPS Heatmap Animation
 
+* [Sequential Demo](http://andytaylor.me/gps-heatmap-animation/)
 * [Concurrent Demo](http://andytaylor.me/gps-heatmap-animation/concurrent.html)
-* [Sequential Demo](http://andytaylor.me/gps-heatmap-animation/sequential.html)
 
 ## Make vector heatmap
 
