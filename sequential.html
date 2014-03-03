@@ -34,13 +34,13 @@
   </script>
 
   <!-- Include D3 -->
-	<script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
+  <script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
 
   <!-- Configure D3 -->
-	<script type="text/javascript">
+  <script type="text/javascript">
     // Speed of animation is defined by the length of the paths.
     // 1 is fast, 20 is quite slow. Choose a speed somewhere in the middle:
-    var speed = 8
+    var speed = 8s
 
     var paths = d3.selectAll("path");
     var previousLength = 0
@@ -63,7 +63,7 @@
 
         previousLength = previousLength + totalLength
     });
-	</script>
+  </script>
 
 </body>
 </html>
