@@ -51,17 +51,24 @@
       d3.select(this)
         .attr("stroke-dasharray", totalLength + " " + totalLength)
         .attr("stroke-dashoffset", totalLength)
-        .attr("stroke", "#fff")
-        .attr("opacity", "0.1")
+        .attr("stroke", "white")
+        .attr("opacity", "1")
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
+
+      current_path = d3.select(this)
         .transition()
           .duration(totalLength * speed)
           .delay(previousLength * speed)
           .ease("linear")
-          .attr("stroke-dashoffset", 0);
+          .attr("stroke-dashoffset", 0)
 
-        previousLength = previousLength + totalLength
+      current_path
+        // These are the "transition to" attributes.
+        .attr("stroke", "purple")
+        .attr("opacity", "0.75")
+
+      previousLength = previousLength + totalLength
     });
   </script>
 
