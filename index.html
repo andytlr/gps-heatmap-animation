@@ -26,10 +26,6 @@
     width: 30px;
     height: 30px;
   }
-  .octocat path {
-    fill: purple;
-    opacity: 0.3;
-  }
   .octocat:hover path {
     fill: white;
     opacity: 1;
@@ -73,6 +69,21 @@
   <!-- Include D3 -->
   <script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
 
+  <!-- Octocat specific junks -->
+  <script>
+    var octocat = d3.select(".octocat path");
+
+    octocat
+      .attr("fill", "purple")
+      .attr("opacity", "1")
+      .transition()
+        .duration(1000)
+        .delay(0)
+        .ease("linear")
+        .attr("fill", "purple")
+        .attr("opacity", "0.5")
+  </script>
+
   <!-- Configure D3 -->
   <script type="text/javascript">
     // Speed of animation is defined by the length of the paths.
@@ -100,6 +111,7 @@
 
       path
         // These are the "transition to" attributes.
+        // Seems hacky, but lolol?
         .attr("stroke", "purple")
         .attr("opacity", "0.3")
 
