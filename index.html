@@ -11,16 +11,49 @@
     padding: 0;
     background: #210029;
   }
-  svg {
+  #animate svg {
     width: 100%;
     height: 100%;
+  }
+  #animate svg path:hover {
+    stroke: white;
+    opacity: 1;
+  }
+  .octocat {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .octocat:hover path {
+    fill: white;
+    opacity: 1;
+    stroke: none;
   }
 </style>
 </head>
 <body>
 
+  <a href="http://github.com/andytlr/gps-heatmap-animation">
+    <svg version="1.1" class="octocat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+    <path fill="none" d="M19.983,2.499C10.046,2.744,2.739,10.221,2.5,20.389c0.137,8.002,4.882,14.466,11.952,16.982
+      c0.854,0.14,1.195-0.349,1.195-0.873l-0.034-3.32c-2.356,0.384-3.961,0.175-4.746-0.629c-0.82-0.803-1.195-1.293-1.127-1.467
+      c-0.444-1.013-0.854-1.712-1.264-2.097c-0.444-0.384-0.648-0.559-0.682-0.524c-1.4-1.083-0.102-1.118,0.136-1.083
+      c0.854,0.14,1.536,0.454,1.98,0.978s0.682,0.803,0.682,0.873c1.673,2.551,3.995,2.097,5.088,1.502
+      c0.171-1.153,0.614-1.957,1.127-2.376c-4.063-0.279-7.786-2.167-7.956-8.84c0-1.957,0.682-3.564,1.809-4.787
+      c-0.136-0.245-0.239-0.769-0.341-1.607c-0.102-0.838,0.068-1.887,0.512-3.145c0-0.07,0.375-0.07,1.161,0.035
+      c0.786,0.105,1.98,0.734,3.654,1.817c1.434-0.384,2.902-0.594,4.405-0.594c1.468,0,2.937,0.21,4.337,0.594
+      c1.673-1.083,2.868-1.712,3.654-1.817c0.786-0.105,1.161-0.105,1.161-0.035c0.444,1.258,0.614,2.307,0.512,3.145
+      s-0.205,1.362-0.341,1.607c1.127,1.258,1.809,2.831,1.809,4.787c-0.171,6.709-3.927,8.56-7.99,8.84
+      c0.648,0.559,1.195,1.642,1.195,3.32l-0.034,4.926c0,0.524,0.341,1.013,1.195,0.873c7.068-2.515,11.814-8.979,11.951-16.981
+      C37.261,10.326,29.92,2.744,19.983,2.499z"/>
+    </svg>
+  </a>
+
   <!-- Make a container for the SVG to append to -->
-  <div id="svgContainer"></div>
+  <div id="animate">
+    <div id="svgContainer"></div>
+  </div>
 
   <!-- Append the SVG to the above container -->
   <script>
@@ -36,19 +69,47 @@
   <!-- Include D3 -->
   <script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
 
+  <!-- Octocat specific junks -->
+  <script>
+    var octocat = d3.select(".octocat path");
+
+    octocat.each(function (d, i) {
+      var octocatLength = this.getTotalLength();
+
+      var path = d3.select(this)
+        .attr("opacity", "1")
+        .attr("stroke-dasharray", octocatLength + " " + octocatLength)
+        .attr("stroke-dashoffset", octocatLength)
+        .attr("stroke", "white")
+        .attr("fill", "#210029")
+        .attr("stroke-width", "1")
+        .transition()
+          .duration(3000)
+          .delay(0)
+          .ease("linear")
+          .attr("stroke-dashoffset", 0)
+
+      path
+        .attr("stroke", "purple")
+        .attr("fill", "purple")
+        .attr("opacity", "0.5")
+
+    });
+  </script>
+
   <!-- Configure D3 -->
   <script type="text/javascript">
     // Speed of animation is defined by the length of the paths.
     // 1 is fast, 20 is quite slow. Choose a speed somewhere in the middle:
     var speed = 6
 
-    var paths = d3.selectAll("path");
+    var paths = d3.selectAll("#animate path");
     var previousLength = 0
 
     paths.each(function (d, i) {
       var totalLength = this.getTotalLength();
 
-      path = d3.select(this)
+      var path = d3.select(this)
         .attr("stroke-dasharray", totalLength + " " + totalLength)
         .attr("stroke-dashoffset", totalLength)
         .attr("stroke", "white")
@@ -63,6 +124,7 @@
 
       path
         // These are the "transition to" attributes.
+        // Seems hacky, but lolol?
         .attr("stroke", "purple")
         .attr("opacity", "0.3")
 
