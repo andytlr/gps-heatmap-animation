@@ -4,6 +4,10 @@
 
 library(plotKML)
 
+# The below line will generate an SVG rather than a PDF. Although it contains inline styles that D3 can't override.
+# I'm yet to work out how to strip these styles with R.
+# svg('chart.svg')
+
 # GPX files downloaded from Runkeeper
 files <- dir(pattern = "\\.gpx")
 

@@ -7,9 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
   body {
-    margin: 0;
-    padding: 0;
-    background: #33163B;
+    background: #210029;
   }
   svg {
     width: 100%;
@@ -34,27 +32,28 @@
   </script>
 
   <!-- Include D3 -->
-	<script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
+  <script src="vendor/js/d3.v3.min.js" charset="utf-8"></script>
 
   <!-- Configure D3 -->
-	<script type="text/javascript">
+  <script type="text/javascript">
     var paths = d3.selectAll("path");
 
     paths.each(function (d, i) {
       var totalLength = this.getTotalLength();
-      d3.select(this)
+
+      path = d3.select(this)
         .attr("stroke-dasharray", totalLength + " " + totalLength)
         .attr("stroke-dashoffset", totalLength)
-        .attr("stroke", "#fff")
-        .attr("opacity", "0.2")
+        .attr("stroke", "purple")
+        .attr("opacity", "0.3")
         .attr("fill", "none")
         .attr("stroke-width", "0.25")
         .transition()
           .duration(20000)
           .ease("linear")
-          .attr("stroke-dashoffset", 0);
+          .attr("stroke-dashoffset", 0)
     });
-	</script>
+  </script>
 
 </body>
 </html>
